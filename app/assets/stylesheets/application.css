@@ -15,5 +15,34 @@
  */
 
 .navbar {
-  background-color: #fdf6ea !important;
+  background-color: #000 !important;
+}
+
+.nav-link {
+  color: #fff !important;
+}
+
+#logo {
+  color: #fff;
+  font-size: 1.5rem;
+  letter-spacing: -1px;
+  font-weight: bold;
+  transition: 0.3s all ease-in-out;
+}
+
+#home-container {
+  margin-top: 25px;
+}
+
+.jumbotron {
+  background-image: url('../images/jumbo-copy.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 425px;
+}
+
+html,
+body {
+  height: 100%;
 }
