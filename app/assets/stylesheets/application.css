@@ -35,7 +35,7 @@
 }
 
 .jumbotron {
-  background-image: url('../images/jumbo-copy.jpg');
+  background-image: asset-url('jumbo.jpeg');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -44,5 +44,11 @@
 
 html,
 body {
+  min-height: 100%;
+}
+
+#page-content {
+  flex: 1 0 auto;
+  background-color: lightgrey;
   height: 100%;
 }
